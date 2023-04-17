@@ -9,13 +9,14 @@
   
   .logo img {
     height: 3rem;
+    padding-left: 360px;
   }
   
   .search {
     display: flex;
     align-items: center;
     color: gray;
-    padding-left: 75rem;
+    padding-left: 35rem;
     margin-right: 3rem;
   }
   
