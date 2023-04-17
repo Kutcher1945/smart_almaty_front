@@ -9,7 +9,7 @@
   
   .logo img {
     height: 3rem;
-    padding-left: 620px;
+    padding-left: 600px;
   }
   
   .search {
@@ -61,5 +61,73 @@
   
   .menu a:hover {
     color: #ffffff;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(0, 29, 73, 0.847);
+      color: white;
+      padding: 1rem;
+    }
+  
+    .logo img {
+      height: 3rem;
+      margin-bottom: 1rem;
+    }
+  
+    .search {
+      display: flex;
+      align-items: center;
+      color: gray;
+      margin-bottom: 1rem;
+    }
+  
+    .search input {
+      padding: 0.5rem;
+      border-radius: 0.25rem;
+      border: none;
+      margin-right: 0.5rem;
+    }
+  
+    .search button {
+      padding: 0.5rem;
+      border-radius: 0.25rem;
+      border: none;
+      background-color: #ffffff;
+      color: #000000;
+      cursor: pointer;
+    }
+  
+    .menu {
+      flex: 1;
+    }
+  
+    .menu ul {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .menu li:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .menu a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      transition: color 0.3s ease-in-out;
+      text-align: center;
+    }
+  
+    .menu a:hover {
+      color: #ffffff;
+    }
   }
   

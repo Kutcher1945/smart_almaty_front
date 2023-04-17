@@ -5,6 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    transform-origin: center;
+    transform: scale(1.0);
+    transition: transform 0.3s ease-in-out;
+}
+  
+body.zoom-in {
+  transform: scale(1.2);
+}
+  
+body.zoom-out {
+  transform: scale(0.8);
 }
 
 code {
