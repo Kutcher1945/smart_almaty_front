@@ -6,7 +6,7 @@ const ImagePage: React.FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imageContainer}>
-        <img src={Image} alt="Example" className={styles.image} />
+        {/* <img src={Image} alt="Example" className={styles.image} /> */}
         <div className={styles.overlay}></div>
         <div className={styles.textContainer}>
           <h2 className={styles.title}>Ситуационный центр Алматы</h2>

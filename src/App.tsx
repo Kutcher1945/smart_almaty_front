@@ -6,15 +6,15 @@ import Footer from './Footer';
 import ImagePage from './ImagePage';
 import ButtonGrid from './ButtonsGrid';
 import backgroundImage from './header.jpg';
+import './reset.css'
 
 function App() {
   return (
     <div className="App">
       <Header />
       <ImagePage />
-      <ButtonGrid buttons={['Ситуационный центр', 'Мониторинг районов', 'Экономика города']} />
-      <ButtonGrid buttons={['Социальная жизнь', 'Стартап экосистема', 'Экология города']} />
-      {/* <img src={backgroundImage} alt="Background" className="background-image" /> */}
+      <ButtonGrid buttons={['Ситуационный центр', 'Мониторинг районов', 'Экономика города', 'Социальная жизнь', 'Стартап экосистема', 'Экология города']} />
+      <div style={{backgroundColor:'white'}}></div>
       <Footer />
     </div>
   );

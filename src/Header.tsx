@@ -13,25 +13,22 @@ const Header: React.FC<HeaderProps> = (props) => {
         <img src={logo} alt="Logo" />
       </div>
 
-      <div className={styles.search}>
-        <input type="text" placeholder="Поиск" />
-      </div>
-
       <nav className={styles.menu}>
-        <ul>
-          <li>
+          <div className={styles.search}>
+            <input type="text" placeholder="Поиск" />
+          </div>
+          <span>
             <a href="#">Модули</a>
-          </li>
-          <li>
+          </span>
+          <span>
             <a href="#">Блог</a>
-          </li>
-          <li>
+          </span>
+          <span>
             <a href="#">О нас</a>
-          </li>
-          <li>
+          </span>
+          <span>
             <a href="#">Контакты</a>
-          </li>
-        </ul>
+          </span>
       </nav>
     </header>
   );

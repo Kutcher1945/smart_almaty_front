@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: max-content 2fr 1fr 1fr max-content;
 }
 
 .App-logo {
@@ -7,6 +10,13 @@
   pointer-events: none;
 }
 
+#root,
+.App,
+body,
+html{
+  height: 100%;
+  width: 100%;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -27,6 +37,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
