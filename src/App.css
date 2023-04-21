@@ -47,3 +47,29 @@ html{
     transform: rotate(360deg);
   }
 }
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 1.5s linear;
+  animation-delay: 0.5s; /* Add a delay to the animation */
+  height: 150px;
+  width: 150px;
+}
+
+@keyframes App-logo-spin {
+  from { opacity: 0;  }
+  to { opacity: 1;  }
+}
+
+
